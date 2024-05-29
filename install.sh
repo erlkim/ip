@@ -2,9 +2,9 @@
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
-REPO1="https://raw.githubusercontent.com/myridwan/abc/ipuk/"
-REPO="https://raw.githubusercontent.com/myridwan/scriptvps/ipuk/"
-CDNF="https://raw.githubusercontent.com/myridwan/vvip/ipuk"
+REPO1="https://raw.githubusercontent.com/erlkim/ip/main/"
+REPO="https://raw.githubusercontent.com/erlkim/ip/main/"
+CDNF="https://raw.githubusercontent.com/erlkim/ip/main"
 ###
 BURIQ () {
     curl -sS https://raw.githubusercontent.com/erlkim/key/main/ip > /root/tmp
@@ -297,19 +297,19 @@ wget https://raw.githubusercontent.com/erlkim/ip/main/ssh/ssh-vpn.sh && chmod +x
 echo -e "$green[INFO]$NC Install XRAY!"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/myridwan/VVIP/ipuk/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/erlkim/ip/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 echo -e "$green[INFO]$NC Install SET-BR!"
-wget https://raw.githubusercontent.com/myridwan/VVIP/ipuk/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/erlkim/ip/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 echo -e "$green[INFO]$NC Install WEBSOCKET!"
-wget https://raw.githubusercontent.com/myridwan/VVIP/ipuk/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/erlkim/ip/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
-wget https://raw.githubusercontent.com/myridwan/VVIP/ipuk/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+wget https://raw.githubusercontent.com/erlkim/ip/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
-wget https://raw.githubusercontent.com/myridwan/vvip/ipuk/update/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/erlkim/ip/main/update/update.sh && chmod +x update.sh && ./update.sh
 rm -f update.sh
 clear
 ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
@@ -352,7 +352,7 @@ fi
 curl -sS ifconfig.me > /etc/myipvps
 
 echo " "
-echo "=====================-[ AutoScript Arh-Project ]-===================="
+echo "=====================-[ AutoScript Kim-Project ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -392,13 +392,13 @@ echo "   - Admin Control" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> WhatsApp : +6283850135751 (Text Only)"  | tee -a log-install.txt
-echo "   >>> Telegram : t.me/citralinggau"  | tee -a log-install.txt
+echo "   >>> WhatsApp : +62816262972 (Text Only)"  | tee -a log-install.txt
+echo "   >>> Telegram : t.me/erlkim"  | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script ARH-PROJECT  ]-==============="
+echo "===============-[ Script Kim-PROJECT  ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
